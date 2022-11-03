@@ -22,6 +22,14 @@
             ],
             "type": "shell",
             "problemMatcher": []
+        },
+        {
+            "label": "Start jekyll the way in the tutorial",
+            "command": "bundle exec jekyll serve",
+            "args": [
+            ],
+            "type": "shell",
+            "problemMatcher": []
         }
     ]
 }

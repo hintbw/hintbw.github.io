@@ -1,7 +1,5 @@
 title: hintbw's Home on the Web
-description: > # this means to ignore newlines until "show_excerpts:"
-My personal blog, with a focus on technology and engineering topics
- with the occasional tangent to other topics
+description: My personal blog, with a focus on technology and engineering topics with the occasional tangent to other topics
 
 show_excerpts: true # set to true to show excerpts on the homepage
 
