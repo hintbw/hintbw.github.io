@@ -1,8 +1,42 @@
 title: hintbw's Home on the Web
-description: My personal blog, with a focus on technology and engineering topics with the occasional tangent to other topics
-permalink: /:slugified_categories/:title/
+description: > # this means to ignore newlines until "show_excerpts:"
+My personal blog, with a focus on technology and engineering topics
+ with the occasional tangent to other topics
 
-date_format: "%b %-d, %Y"
+show_excerpts: true # set to true to show excerpts on the homepage
+
+locale: "en-US"
+minima:
+  date_format: "%b %-d, %Y"
+
+author:
+  name: Brett Hinton
+  email: brett@hintonweb.com
+
+social_links:
+    twitter: hintbw
+    github:  hintbw
+    # devto: jekyll
+    # dribbble: jekyll
+    # facebook: jekyll
+    # flickr:   jekyll
+    # instagram: jekyll
+    linkedin: hintbw
+    # pinterest: jekyll
+    youtube: hintbw
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+    # telegram: jekyll
+    # googleplus: +jekyll
+    # microdotblog: jekyll
+    # keybase: jekyll
+    # google_scholar_id: qc6CJjYAAAAJ
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
 exclude:
   - "package*.json"
