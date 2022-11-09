@@ -18,9 +18,5 @@ RUN sudo apt install build-essential zlib1g-dev
 # [Optional] Uncomment this line to install additional gems.
 RUN gem install bundler
 RUN bundle config set --local path 'vendor/bundle'
-RUN git config --global user.email "brett@hintonweb.com"
-RUN git config --global user.name "Brett Hinton"
-RUN
-RUN
 # [Optional] Uncomment this line to install global node packages.
 # RUN su vscode -c "source /usr/local/share/nvm/nvm.sh && npm install -g <your-package-here>" 2>&1
