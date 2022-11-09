@@ -9,7 +9,7 @@ FROM mcr.microsoft.com/vscode/devcontainers/ruby:0-${VARIANT}
 # ARG NODE_VERSION="lts/*"
 # RUN if [ "${INSTALL_NODE}" = "true" ]; then su vscode -c "source /usr/local/share/nvm/nvm.sh && nvm install ${NODE_VERSION} 2>&1"; fi
 
-RUN apt install ruby-full build-essential zlib1g-dev
+RUN sudo apt install build-essential zlib1g-dev
 
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
