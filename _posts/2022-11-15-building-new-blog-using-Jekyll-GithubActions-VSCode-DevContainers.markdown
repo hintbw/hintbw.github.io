@@ -26,8 +26,10 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 Links I found helpful:
 [Jekyll Publishing Using Custom Github Action Workflow][jekyll-gh-actions]
+[Using Jekyll with Bundler][jekyll-bundler]
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
 [jekyll-gh-actions]: https://jekyllrb.com/docs/continuous-integration/github-actions/
+[jekyll-bundler]: https://jekyllrb.com/tutorials/using-jekyll-with-bundler/
