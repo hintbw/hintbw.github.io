@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2022-11-09 03:58:21 +0000
-categories: jekyll update
+title:  "Building my new blog in Jekyll using Github Actions, VS Code and Dev Containers"
+date:   2022-11-15 08:00:00 +0000
+categories: blog
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
@@ -24,6 +24,10 @@ print_hi('Tom')
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
+Links I found helpful:
+[Jekyll Publishing Using Custom Github Action Workflow][jekyll-gh-actions]
+
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
+[jekyll-gh-actions]: https://jekyllrb.com/docs/continuous-integration/github-actions/
